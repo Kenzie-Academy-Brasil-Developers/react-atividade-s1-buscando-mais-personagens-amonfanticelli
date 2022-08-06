@@ -8,4 +8,8 @@ export const ButtonAfter = styled.button`
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 255, 0, 1);
+    transition: 0.7s;
+  }
 `;

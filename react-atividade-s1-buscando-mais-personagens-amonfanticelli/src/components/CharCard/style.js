@@ -20,7 +20,10 @@ export const ListElement = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: lightblue;
+  background-color: rgba(0, 255, 0, 0.5);
+
+  min-height: 350px;
+  min-width: 250px;
 `;
 
 export const Img = styled.img`
@@ -32,5 +35,8 @@ export const CardTitle = styled.h1`
   font-family: var(--font-bangers);
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-overflow: ellipsis;
 `;
-// @media screen and (min-width: 600px){

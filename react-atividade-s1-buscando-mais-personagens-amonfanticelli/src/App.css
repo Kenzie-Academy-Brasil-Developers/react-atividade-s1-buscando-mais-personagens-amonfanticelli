@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/637645.jpg);
 }
 
 .pageTitle {
@@ -12,4 +13,5 @@
   margin-bottom: 1rem;
   font-size: 2rem;
   font-family: var(--font-creepster);
+  color: rgba(0, 255, 0, 1);
 }

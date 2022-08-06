@@ -54,6 +54,5 @@ function App() {
     </div>
   );
 }
-// background image
-// https://wallpaperaccess.com/full/637645.jpg
+
 export default App;
